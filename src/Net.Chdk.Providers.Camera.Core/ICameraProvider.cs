@@ -10,5 +10,6 @@ namespace Net.Chdk.Providers.Camera
         CameraModelsInfo GetCameraModels(SoftwareProductInfo productInfo, SoftwareCameraInfo cameraInfo);
         SoftwareCameraInfo GetCamera(string productName, CameraInfo cameraInfo, CameraModelInfo cameraModelInfo);
         SoftwareEncodingInfo GetEncoding(SoftwareProductInfo productInfo, SoftwareCameraInfo cameraInfo);
+        AltInfo GetAlt(SoftwareProductInfo productInfo, SoftwareCameraInfo cameraInfo);
     }
 }
