@@ -2,27 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-    <Description>CHIMP cameraModel providers API</Description>
-    <AssemblyName>Net.Chdk.Providers.CameraModel.Core</AssemblyName>
-    <RootNamespace>Net.Chdk.Providers.CameraModel</RootNamespace>
+    <Description>CHIMP camera providers API</Description>
+    <AssemblyName>Net.Chdk.Providers.Camera.Core</AssemblyName>
+    <RootNamespace>Net.Chdk.Providers.Camera</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
     <Version>0.1.0</Version>
-    <CameraModel>CHIMP</CameraModel>
+    <Product>CHIMP</Product>
     <Copyright>Copyright © 2017 Dmitry Shechtman</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Net.Chdk.Providers.CameraModel.Core</Title>
+    <Title>Net.Chdk.Providers.Camera.Core</Title>
     <PackageVersion>$(Version)-alpha</PackageVersion>
     <Authors>Dmitry Shechtman</Authors>
     <PackageIconUrl>https://raw.githubusercontent.com/CHDKUtil/CHIMP/master/tiny.png</PackageIconUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/CHDKUtil/Net.Chdk.Providers.CameraModel.Core/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/CHDKUtil/Net.Chdk.Providers.CameraModel.Core</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/CHDKUtil/Net.Chdk.Providers.CameraModel.Core</RepositoryUrl>
-    <PackageTags>chimp provider cameramodel core</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/CHDKUtil/Net.Chdk.Providers.Camera.Core/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/CHDKUtil/Net.Chdk.Providers.Camera.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CHDKUtil/Net.Chdk.Providers.Camera.Core</RepositoryUrl>
+    <PackageTags>chimp provider camera core</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -36,8 +36,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="net.chdk.model.camera" Version="0.1.0-alpha" />
-    <PackageReference Include="net.chdk.model.cameramodel" Version="0.1.0-alpha" />
+    <PackageReference Include="Net.Chdk.Model.Camera" Version="0.1.0-alpha" />
+    <PackageReference Include="Net.Chdk.Model.CameraModel" Version="0.1.0-alpha" />
+    <PackageReference Include="Net.Chdk.Model.Software" Version="0.1.0-alpha" />
   </ItemGroup>
 
 </Project>

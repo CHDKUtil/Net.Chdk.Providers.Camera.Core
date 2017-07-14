@@ -1,6 +1,6 @@
 ﻿using Net.Chdk.Model.CameraModel;
 
-namespace Net.Chdk.Providers.CameraModel
+namespace Net.Chdk.Providers.Camera
 {
     public sealed class CameraModelsInfo
     {
